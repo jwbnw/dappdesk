@@ -1,0 +1,106 @@
+.connect-wallet-div {
+    background-color: black;
+    align-items: flex-end;
+    text-align: end;
+    flex-direction: column;
+    height: 38px;
+    width: 100%;
+}
+
+.welcome-class {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50;
+}
+
+.welcome-class-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    background: black;
+}
+
+.app-aggregator-div {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.card-div {
+    display: flex;
+    flex-direction: row;
+}
+
+.single-card-div {
+    display: flex;
+    flex-direction: row;
+    align-items: 'center';
+    height: 500px;
+}
+
+.collapse-text-div {
+    border-radius: 25px;
+    border: 2px solid grey;
+    padding: 20px;
+    white-space: pre-line;
+}
+
+.wallet-modal {
+    text-align: left;
+    align-items: flex-start;
+}
+
+.card-img-class {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+}
+
+.card-side-div {
+    width: 5px;
+}
+
+.card-bottom-div {
+    height: 5px;
+}
+
+.card-title-div {
+    text-align: center;
+    color: white;
+}
+
+.home-page-div {
+    background: black;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-color-class {
+    color: white;
+}
+
+.user-dapps-title-div {
+    color: white;
+}
+
+html {
+    background: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
