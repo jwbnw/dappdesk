@@ -31,6 +31,16 @@ export const HomePage: React.FC<IPage> = ({}) => {
                         </Link>
                     </NavLink>
                 </NavItem>
+                <NavItem>
+                    <NavLink>
+                        <a
+                            style={{ color: 'green' }}
+                            href="https://www.github.com/jwbnw/dappdesk/tree/main/src/resources/DappDeskLitePaper.pdf"
+                        >
+                            Read Litepaper
+                        </a>
+                    </NavLink>
+                </NavItem>
             </Nav>
             <div style={{ position: 'absolute', bottom: 25 }}>
                 <img src={SolanaLogo} alt="Solana Logo" />
