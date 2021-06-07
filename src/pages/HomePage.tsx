@@ -35,7 +35,7 @@ export const HomePage: React.FC<IPage> = ({}) => {
                     <NavLink>
                         <a
                             style={{ color: 'green' }}
-                            href="https://www.github.com/jwbnw/dappdesk/tree/main/src/resources/DappDeskLitePaper.pdf"
+                            href="https://github.com/jwbnw/dappdesk/blob/main/DappDeskLitepaper.pdf"
                         >
                             Read Litepaper
                         </a>
