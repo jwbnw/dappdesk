@@ -4,7 +4,11 @@ Dapp Desk is a Web Based Application Aggregator and Address Explorer for Dapps o
 
 ## Visit the Beta
 
-We're currently hosting the Hackathon Beta on github pages: <a href="https://jwbnw.github.io/dappdesk/#/"> Visit Dapp Desk Beta </a>
+We're currently hosting the Hackathon Beta on github pages: <a href="https://jwbnw.github.io/dappdesk/#/">Visit Dapp Desk Beta </a>
+
+## Read the LitePaper
+
+Checkout the Litepaper to learn more about the problems we're trying to solve: <a href="https://github.com/jwbnw/dappdesk/blob/main/DappDeskLitepaper.pdf">Read Litepaper </a>
 
 ### Building it yourself
 
