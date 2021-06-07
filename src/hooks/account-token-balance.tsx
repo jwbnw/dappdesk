@@ -44,8 +44,6 @@ export default (): [(accountKey: string) => void, TokenDisplay[], string] => {
     const finalUserTokenDataArr: TokenDisplay[] = [];
 
     const getTokenData = async (accountKey: string) => {
-        let test = '4ShQZdAq6B8Bno1JHbMrzj9a5EUs8PDgUQJogSfooboB';
-
         let TempTokenArr: TokenAccount[] = [];
         let TempMintInfoArr: ParsedAccountBase[] = [];
         try {
