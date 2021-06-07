@@ -14,7 +14,7 @@ Checkout the Litepaper to learn more about the problems we're trying to solve: <
 
 If you want to build the project locally here is how.
 
--- Assuming you already have Node.js installed (<a href="https://nodejs.org">if not click here to download and find documentation on how to do so</a>) --
+Assuming you already have Node.js installed (<a href="https://nodejs.org">if not click here to download and find documentation on how to do so</a>)
 
 ```
 1) Clone/Fork the Repo
@@ -33,6 +33,11 @@ If you want to build the project locally here is how.
 ```
 
 If you run into any build issues ensure you have all dependencies installed then raise an issue and I'll see if I can lend a hand!
+
+## Built With
+
+[React](https://github.com/facebook/react)
+[Webpack](https://github.com/webpack/webpack)
 
 ## Acknowledgments
 
