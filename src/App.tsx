@@ -46,7 +46,7 @@ const App: React.FC<{}> = ({}) => {
             <div className="welcome-class-div">
                 <ConnectWallet updateWalletInfo={updateWalletInfo} />
                 <br />
-                <h1 className="welcome-class">Dapp Desk ┬─┬ノ( º _ ºノ)</h1>
+                <h1 className="welcome-class">Dapp Deskノ( º _ ºノ)</h1>
                 <h3 className="text-color-class">Early Hackathon Beta</h3>
                 <NavComponent />
                 <br />
