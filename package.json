@@ -3,7 +3,10 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
+    "homepage": "https://jwbnw.github.io/dappdesk",
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist",
         "dev": "webpack serve --open --hot --config webpack.dev.js",
         "build": "webpack --config webpack.prod.js",
         "test": "echo \"Error: no test specified\" && exit 1",
