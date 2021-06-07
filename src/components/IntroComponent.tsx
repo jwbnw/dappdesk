@@ -79,8 +79,10 @@ export const IntroComponent: React.FC<any> = ({}) => {
                 <Col>
                     <CollapseInfoComponent
                         title="SolanaSzn Hackathon"
-                        info="The Solana Season Hackathon is currently underway! We're taking part in this contest so we'll keep you up to date with any news! For more information checkout the github:"
+                        info="The Solana Season Hackathon is currently underway! We're taking part in this contest so we'll keep you up to date with any news! For more information checkout the "
                         toggleName="SolanaSzn Hackathon"
+                        hyperLink="https://github.com/jwbnw/dappdesk"
+                        hyperLinkText="Dapp Desk GitHub"
                     />
                 </Col>
             </Row>
