@@ -78,14 +78,6 @@ export const DeFiCards: ICard[] = [
 
 export const PopularCards: ICard[] = [
     {
-        header: 'Game-MMO',
-        title: 'StarAtlas',
-        body: 'MMO Metaverse where players can earn real-world income',
-        hyperlink: 'https://staratlas.com',
-        assetUrl: 'StarAtlas.png',
-        footer: 'Review Count:'
-    },
-    {
         header: 'Portfolio Tracker',
         title: 'Step Finance',
         body: 'Understand the performance and risk profile of your positions',
@@ -139,6 +131,14 @@ export const PopularCards: ICard[] = [
         body: 'Allows Devlopers to easily connect to Solana!',
         hyperlink: 'https://runnode.com',
         assetUrl: 'RunNode.png',
+        footer: 'Review Count:'
+    },
+    {
+        header: 'Game-MMO',
+        title: 'StarAtlas',
+        body: 'MMO Metaverse where players can earn real-world income',
+        hyperlink: 'https://staratlas.com',
+        assetUrl: 'StarAtlas.png',
         footer: 'Review Count:'
     }
 ];
