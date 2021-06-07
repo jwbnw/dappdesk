@@ -4,7 +4,8 @@ import {
     BrowserRouter,
     Route,
     Switch,
-    RouteComponentProps
+    RouteComponentProps,
+    HashRouter
 } from 'react-router-dom';
 
 import logging from './config/logging';
@@ -72,12 +73,12 @@ const App: React.FC<{}> = ({}) => {
     };
 
     return (
-        <BrowserRouter>
+        <HashRouter>
             <Switch>
                 <Route exact path="/" component={HomePageContainer} />
                 <Route component={MainAppContainer} />
             </Switch>
-        </BrowserRouter>
+        </HashRouter>
     );
 };
 
