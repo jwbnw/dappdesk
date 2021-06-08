@@ -38,6 +38,7 @@ If you run into any build issues ensure you have all dependencies installed then
 
 [React](https://github.com/facebook/react)
 [Webpack](https://github.com/webpack/webpack)
+[Shards-React](https://github.com/DesignRevision/shards-react)
 
 ## Acknowledgments
 
