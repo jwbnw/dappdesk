@@ -33,6 +33,8 @@ export default (): [(accountKey: string) => void, number, string, string] => {
                 setErrorMsg('');
                 let data = account.data;
                 logger.info(data, 'Account Data');
+            } else {
+                logger.warn('Not able to retrieve account data');
             }
         } catch (e) {
             setErrorMsg(e);
