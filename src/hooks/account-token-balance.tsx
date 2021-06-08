@@ -62,8 +62,8 @@ export default (): [(accountKey: string) => void, TokenDisplay[], string] => {
             );
 
             info.value.map((x) => {
-                let tokenAccouontBlah = TokenAccountParser(x.pubkey, x.account);
-                TempTokenArr.push(tokenAccouontBlah);
+                let tokenAccouontInfo = TokenAccountParser(x.pubkey, x.account);
+                TempTokenArr.push(tokenAccouontInfo);
             });
 
             logger.info(TempTokenArr, 'TempArr');

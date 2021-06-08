@@ -32,10 +32,11 @@ export default (): [(accountKey: string) => void, number, string, string] => {
                 lamports = account.lamports;
                 setErrorMsg('');
                 let data = account.data;
-                logger.info(data);
+                logger.info(data, 'Account Data');
             }
         } catch (e) {
             setErrorMsg(e);
+            logger.error(e, 'error fetching account info');
         }
 
         let n = lamports;
