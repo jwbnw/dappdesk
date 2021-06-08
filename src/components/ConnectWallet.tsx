@@ -68,7 +68,7 @@ export const ConnectWallet: React.FC<Props> = (props) => {
     const [modalOpen, setModalOpen] = React.useState(false);
     const [providerUrl, setProviderUrl] = React.useState('');
     const [connectionMsg, setConnectionMsg] = React.useState(
-        'Connect Wallet (Devnet)'
+        'Connect Wallet (Testnet)'
     );
 
     const [autoConnect, setAutoConnect] = React.useState(false);
@@ -95,21 +95,21 @@ export const ConnectWallet: React.FC<Props> = (props) => {
             wallet.on('connect', () => {
                 if (wallet.publicKey) {
                     setWalletConnected(true);
-                    setConnectionMsg('Connected (Devnet)');
+                    setConnectionMsg('Connected (Testnet)');
                     props.updateWalletInfo(wallet.publicKey.toBase58(), true);
                 }
             });
 
             wallet.on('disconnect', () => {
                 setWalletConnected(false);
-                setConnectionMsg('Connect Wallet! (Devnet)');
+                setConnectionMsg('Connect Wallet! (Testnet)');
                 props.updateWalletInfo('', walletConnected);
             });
         }
 
         return () => {
             setWalletConnected(false);
-            setConnectionMsg('Connect Wallet! (Devnet)');
+            setConnectionMsg('Connect Wallet! (Testnet)');
             props.updateWalletInfo('', walletConnected);
             if (wallet) {
                 wallet.disconnect();

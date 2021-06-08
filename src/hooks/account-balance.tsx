@@ -8,7 +8,7 @@ const networks = {
         displayName: 'Mainnet Beta'
     },
     devnet: { url: clusterApiUrl('devnet'), displayName: 'Devnet' },
-    testnet: { url: clusterApiUrl('testnet'), displayName: 'Testnet' }
+    testnet: { url: 'https://api.testnet.solana.com', displayName: 'Testnet' }
 };
 
 export default (): [(accountKey: string) => void, number, string, string] => {
@@ -21,7 +21,7 @@ export default (): [(accountKey: string) => void, number, string, string] => {
         try {
             let publicKeyToLookup = new PublicKey(accountKey);
 
-            const solanaNetwork = networks.devnet;
+            const solanaNetwork = networks.testnet;
             const connection = new Connection(solanaNetwork.url, 'confirmed');
 
             const account = await connection.getAccountInfo(

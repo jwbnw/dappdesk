@@ -14,7 +14,7 @@ const networks = {
         displayName: 'Mainnet Beta'
     },
     devnet: { url: clusterApiUrl('devnet'), displayName: 'Devnet' },
-    testnet: { url: clusterApiUrl('testnet'), displayName: 'Testnet' }
+    testnet: { url: 'https://api.testnet.solana.com', displayName: 'Testnet' }
 };
 
 const initalNullData: TokenDisplay = {
@@ -49,7 +49,7 @@ export default (): [(accountKey: string) => void, TokenDisplay[], string] => {
         try {
             let publicKeyToLookup = new PublicKey(accountKey);
 
-            const solanaNetwork = networks.devnet;
+            const solanaNetwork = networks.testnet;
             const connection = new Connection(solanaNetwork.url, 'confirmed');
 
             const info = await connection.getTokenAccountsByOwner(
