@@ -38,7 +38,7 @@ export const IntroComponent: React.FC<any> = ({}) => {
                 <Col>
                     <CollapseInfoComponent
                         title="Getting Started With Solana"
-                        info="Solana is a fast, secure, and censorship resistant blockchain! Don't worry if you're not too familiar with the conecpt ofblockchains or why they're used! You can check out the blockchain section below for more info on that. To get started with Solana you'll just need to create a wallet and fund it with a little Solana! Check out the Fiat Onboading section for more information on that! If you don't have a wallet you can click on the Connect Wallet link at the top and choose a recommended wallet. They should be able to guide you through the rest! (We like Phantom or Sollet). Once you have your wallet connected you may see you have no connected Dapps! So go checkout out the Dapp Explorer page and have fun! For more information on Solana Check out:  "
+                        info="Solana is a fast, secure, and censorship resistant blockchain! Don't worry if you're not too familiar with the concept ofblockchains or why they're used! You can check out the blockchain section below for more info on that. To get started with Solana you'll just need to create a wallet and fund it with a little Solana! Check out the Fiat On-boarding section for more information on that! If you don't have a wallet you can click on the Connect Wallet link at the top and choose a recommended wallet. They should be able to guide you through the rest! (We like Phantom or Sollet). Once you have your wallet connected you may see you have no connected Dapps! So go checkout out the Dapp Explorer page and have fun! For more information on Solana Check out:  "
                         toggleName="Getting Started With Solana"
                         hyperLink="https://solana.com"
                         hyperLinkText="Solana"
@@ -53,7 +53,7 @@ export const IntroComponent: React.FC<any> = ({}) => {
                 <Col>
                     <CollapseInfoComponent
                         title="Dapp Desk's Long Term Vision"
-                        info="We want to become the one stop shop for you to track, monitor and review your crypto interactions. Futhermore, we look forward to creating an enviornment where new users can look around and see what services are offered along how other users have felt about their interactions. Given the opennature of blockchains we can ensure reviews are from verifed users. Our current focus is decentalized applications living on the Solana Blockchain. However, our end goal is to abstract this complexity away from the user and show them what they care about, the Dapp and their interaction. Granted, for the power-users out there, we'll provide the tools to explore and dive into the interactions as they wish. Expanding our servics to support other L1 solutions will be considerd."
+                        info="We want to become the one stop shop for you to track, monitor and review your crypto interactions. Furthermore, we look forward to creating an environment where new users can look around and see what services are offered along how other users have felt about their interactions. Given the open nature of blockchains we can ensure reviews are from verified users. Our current focus is decentralized applications living on the Solana Blockchain. However, our end goal is to abstract this complexity away from the user and show them what they care about, the Dapp and their interaction. Granted, for the power-users out there, we'll provide the tools to explore and dive into the interactions as they wish. Expanding our services to support other L1 solutions will be considered."
                         toggleName="Dapp Desk's Long Term Vision"
                     />
                 </Col>
@@ -66,7 +66,7 @@ export const IntroComponent: React.FC<any> = ({}) => {
                 <Col>
                     <CollapseInfoComponent
                         title="Fiat OnBoarding"
-                        info="Fiat OnBoarding is the idea of taking your native fiat currency (USD, GBP, EURO, etc.) and converting it to Digital Currency (Solana, Bitcoin, Etherum, etc.). Currently the best way to go about this is to use an Exchange or Trading App. One of our goals is to make this process easier for you so check back on this seciton soon! For now our recomendations are Blockfolio for Mobile Users, and for Desktop FTX Pay Via Sollet!"
+                        info="Fiat On-boarding is the idea of taking your native fiat currency (USD, GBP, EURO, etc.) and converting it to Digital Currency (Solana, Bitcoin, Etherum, etc.). Currently the best way to go about this is to use an Exchange or Trading App. One of our goals is to make this process easier for you so check back on this section soon! For now our recommendations are Blockfolio for Mobile Users, and for Desktop FTX Pay Via Sollet!"
                         toggleName="Fiat OnBoarding"
                     />
                 </Col>
