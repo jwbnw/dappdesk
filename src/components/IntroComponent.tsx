@@ -15,16 +15,19 @@ export const IntroComponent: React.FC<any> = ({}) => {
                 <Col>
                     <h3 className="text-color-class">Welcome!</h3>
                     <p>
-                        Welcome to your Dapp Desk! Connect your wallet on the
-                        right side of the page to see what applications you're
-                        interacting with! Depending on the length and nature of
-                        your interactions we may request you leave a review for
-                        a certain Dapp and reward you for doing so! If you would
-                        like to check out applications running on Solana
-                        navigate over to the Dapp Explorer page and see what's
-                        popular or scroll through! If you would like to look up
-                        and explore a Solana Address navigate over to the
-                        Address Tool page!
+                        Welcome to your Dapp Desk! This is the hackathon beta
+                        and a very early preview of the project! You may
+                        encounter bugs and will be pointed at the Testnet.
+                        Connect your wallet on the right side of the page and
+                        soon you will be able to see what applications you're
+                        interacting with! Then depending on the length and
+                        nature of your interactions we may request you leave a
+                        review for a certain Dapp and reward you for doing so!
+                        If you would like to check out applications running on
+                        Solana navigate over to the Dapp Explorer page and see
+                        what's popular or scroll through! If you would like to
+                        look up and explore a Solana Address navigate over to
+                        the Address Tool page!
                     </p>
                     <p>
                         For more information about the project and Solana in
