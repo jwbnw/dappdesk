@@ -4,7 +4,7 @@ Dapp Desk is a Web Based Application Aggregator and Address Explorer for Dapps o
 
 ## Update 6/30/2021
 
-We had a blast competing in the Solana Hackathon! Some great projects came out of the Hackathon and it's going to be exciting to watch them grow. For now Dapp Desk is going to be put on indefinite hiatus. If we decide to pursue this project we will put an update litepaper back up and make an announcement on social media! If you checked out the project, thanks!
+We had a blast competing in the Solana Hackathon! Some great projects came out of the Hackathon and it's going to be exciting to watch them grow, congratulations to all the winners and other entries. For now Dapp Desk is going to be put on indefinite hiatus. If we decide to pursue this project we will put an update litepaper back up and make an announcement on social media! If you checked out the project, thanks!
 
 ## Visit the Beta
 
