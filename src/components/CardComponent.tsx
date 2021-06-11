@@ -33,13 +33,13 @@ export const CardComponent: React.FC<Props> = ({
     };
 
     return (
-        <Card style={{ maxWidth: '250px' }}>
+        <Card style={{ maxWidth: '225px' }}>
             <CardHeader style={{ height: '73px' }}>{header}</CardHeader>
             <CardImg
                 className="card-img-class"
                 src={require(`../logos/${assetName}`)}
             />
-            <CardBody style={{ height: '200px', width: '250px' }}>
+            <CardBody style={{ height: '200px', width: '225px' }}>
                 <CardTitle>{title}</CardTitle>
                 <p>{body}</p>
                 <Button
