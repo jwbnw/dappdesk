@@ -33,13 +33,13 @@ export const CardComponent: React.FC<Props> = ({
     };
 
     return (
-        <Card className="single-card-class" style={{ maxWidth: '200px' }}>
+        <Card style={{ maxWidth: '250px' }}>
             <CardHeader style={{ height: '73px' }}>{header}</CardHeader>
             <CardImg
                 className="card-img-class"
                 src={require(`../logos/${assetName}`)}
             />
-            <CardBody style={{ height: '226px', width: '196px' }}>
+            <CardBody style={{ height: '200px', width: '250px' }}>
                 <CardTitle>{title}</CardTitle>
                 <p>{body}</p>
                 <Button
@@ -48,17 +48,16 @@ export const CardComponent: React.FC<Props> = ({
                     style={{
                         position: 'absolute',
                         bottom: '85px',
-                        height: '62px',
-                        width: '156px'
+                        height: '62px'
                     }}
                 >
-                    Visit {title}!
+                    Visit {title}! &rarr;
                 </Button>
             </CardBody>
             <CardFooter>
                 {footer} 0 {/* Hardcoded for now*/}
                 <Button theme="dark" disabled size="sm">
-                    Go To Reviews
+                    Go To Reviews &rarr;
                 </Button>
             </CardFooter>
         </Card>
