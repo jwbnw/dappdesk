@@ -2,6 +2,10 @@
 
 Dapp Desk is a Web Based Application Aggregator and Address Explorer for Dapps on the Solana Blockchain. The project is still in early development at the moment having been inspired by the Solana Season Hackathon. Check back soon for updates and info on when we release to prod!
 
+## Update 6/30/2021
+
+We had a blast competing in the Solana Hackathon! Some great projects came out of the Hackathon and it's going to be exciting to watch them grow. For now Dapp Desk is going to be put on indefinite hiatus. If we decide to pursue this project we will put an update litepaper back up and make an announcement on social media! If you checked out the project, thanks!
+
 ## Visit the Beta
 
 We're currently hosting the Hackathon Beta on github pages: <a href="https://jwbnw.github.io/dappdesk/#/">Visit Dapp Desk Beta </a>
