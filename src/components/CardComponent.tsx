@@ -39,7 +39,7 @@ export const CardComponent: React.FC<Props> = ({
                 className="card-img-class"
                 src={require(`../logos/${assetName}`)}
             />
-            <CardBody style={{ height: '200px', width: '225px' }}>
+            <CardBody style={{ height: '200px', width: '220px' }}>
                 <CardTitle>{title}</CardTitle>
                 <p>{body}</p>
                 <Button
@@ -48,7 +48,8 @@ export const CardComponent: React.FC<Props> = ({
                     style={{
                         position: 'absolute',
                         bottom: '85px',
-                        height: '62px'
+                        height: '62px',
+                        width: '180px'
                     }}
                 >
                     Visit {title}! &rarr;
