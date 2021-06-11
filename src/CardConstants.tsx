@@ -73,6 +73,14 @@ export const DeFiCards: ICard[] = [
         hyperlink: 'https://solape.io',
         assetUrl: 'SoleApe.png',
         footer: 'Review Count:'
+    },
+    {
+        header: 'Decentralized Options Protocol',
+        title: 'PsyOptions',
+        body: 'Decentralized Options Protocol (in closed alpha)',
+        hyperlink: 'https://psyoptions.io',
+        assetUrl: 'Psyoptions.png',
+        footer: 'Review Count:'
     }
 ];
 
@@ -99,7 +107,7 @@ export const PopularCards: ICard[] = [
         body: 'Stake Cope, Climb the leaderboard, reach the index! (Community favorite)',
         hyperlink: 'https://unlimitedcope.com',
         assetUrl: 'Cope.png',
-        footer: 'Likes: '
+        footer: 'Review Count: '
     },
     {
         header: 'Meme Coin',
@@ -139,6 +147,14 @@ export const PopularCards: ICard[] = [
         body: 'MMO Metaverse where players can earn real-world income',
         hyperlink: 'https://staratlas.com',
         assetUrl: 'StarAtlas.png',
+        footer: 'Review Count:'
+    },
+    {
+        header: 'Decentralized VPN',
+        title: 'Boring Protocol',
+        body: 'Decentralized VPM & P2P Bandwidth market',
+        hyperlink: 'https://boringprotocol.io',
+        assetUrl: 'Boring.png',
         footer: 'Review Count:'
     }
 ];
